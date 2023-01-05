@@ -953,6 +953,122 @@ pre code {
   font-size: .925rem;
 }
 
+.roadmap {
+  table-layout: fixed;
+  min-width: 900px;
+  margin-left: -100px;
+}
+
+.roadmap td {
+  text-align: center;
+}
+
+.roadmap td.date {
+  font-size: 0.9rem;
+  height: 1.2rem;
+  text-align: left;
+}
+
+.sprint-odd {
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+.sprint-even {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.elmsd-background {
+  background-color: rgba(11, 60, 73, 0.1);
+}
+
+td.elmsd-header {
+  background-color: #0b3c49;
+  color: white;
+  width: 70px;
+}
+
+.elmsd-workItem {
+  border-top-width: 2px;
+  border-top-color: #0b3c49;
+  background-color: rgba(11, 60, 73, 0.3);
+}
+
+div.elmsd-header {
+  background-color: #0b3c49;
+  color: white;
+}
+
+.isd-background {
+  background-color: rgba(115, 25, 99, 0.1);
+}
+
+.isd-header {
+  background-color: #731963;
+  color: white;
+}
+
+.isd-workItem {
+  border-top-width: 2px;
+  border-top-color: #731963;
+  background-color: rgba(115, 25, 99, 0.3);
+}
+
+.platform-background {
+  background-color: rgba(255, 144, 151, 0.1);
+}
+
+.platform-header {
+  background-color: #ff9097;
+  color: white;
+}
+
+.platform-workItem {
+  border-top-width: 2px;
+  border-top-color: #ff9097;
+  background-color: rgba(255, 144, 151, 0.3);
+}
+
+.process-background {
+  background-color: rgba(6, 188, 193, 0.1);
+}
+
+.process-header {
+  background-color: #06bcc1;
+  color: white;
+}
+
+.process-workItem {
+  border-top-width: 2px;
+  border-top-color: #06bcc1;
+  background-color: rgba(6, 188, 193, 0.3);
+}
+
+div.elmsd-header, div.isd-header, div.platform-header, div.process-header {
+  padding-left: 1.5em;
+  padding-top: 0.3em;
+  padding-bottom: 0.3em;
+}
+
+table.linkages {
+  table-layout: fixed;
+  width: 100%;
+}
+
+.linkages th {
+  color: black;
+  background-color: #cbd2d0;
+  border-left: 3px solid rgba(0, 0, 0, 0.2);
+  border-right: 3px solid rgba(0, 0, 0, 0.2);
+}
+
+.link-odd {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+.link-even {
+  background-color: rgba(0, 0, 0, 0.05);
+}
+
 .docsearch-input {
   background-image: url("/assets/img/magnifying-glass.svg");
   background-position: 0.8em;
